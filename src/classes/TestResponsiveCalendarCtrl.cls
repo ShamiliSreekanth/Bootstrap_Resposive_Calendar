@@ -2,7 +2,7 @@
 private class TestResponsiveCalendarCtrl{
    
    static testmethod void testgetCalendarItems(){
-       Test.startTest();
+       System.Test.startTest();
        Account acc=new Account();
        acc.Name='Test';
        insert acc;
